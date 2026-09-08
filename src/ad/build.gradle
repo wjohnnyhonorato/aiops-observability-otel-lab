@@ -21,9 +21,9 @@ version = "0.1.0-SNAPSHOT"
 
 def opentelemetryVersion = "1.65.0"
 def opentelemetryInstrumentationVersion = "2.31.1"
-def grpcVersion = "1.83.1"
+def grpcVersion = "1.84.0"
 def jacksonVersion = "2.22.2"
-def protocVersion = "4.36.0"
+def protocVersion = "4.36.1"
 def prometheusMetricsVersion = "1.8.0"
 
 tasks.withType(JavaCompile).configureEach {
